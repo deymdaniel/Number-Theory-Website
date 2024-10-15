@@ -1,3 +1,36 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.divisibilityBody {
+  border: 1px solid;
+  width: 500px;
+  height: 400px;
+  padding: 12px;
+}
+
+.numList {
+  display: flex;
+  padding: 0;
+}
+.numList > li {
+  flex: 1;
+  list-style-type: none;
+  border: 1px solid;
+  text-align: center;
+  margin: 4px;
+}
+
+.resultList {
+  display: flex;
+  padding: 0;
+}
+
+.resultList > li {
+  flex: 1;
+  border: 1px solid;
+  list-style-type: none;
+  height: 20px;
+  text-align: center;
+  margin: 4px;
+}
